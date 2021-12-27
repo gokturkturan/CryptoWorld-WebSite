@@ -23,7 +23,7 @@
 		<div>
 		<hr>
 		<p><b><font size="+5">Türkiyenin bir numaralı <br> kripto rehberi sitesine <br> hoşgeldiniz.<br><br>
-			Hemen <a href="ÜyeOl.php" style="color:#0462B5"> kayıt ol<a>, kripto paralar hakkında diğer yatırımcıların yaptığı yorumları öğren.<br> Yatırım stratejine yön ver.</b></p>
+			Tüm dünyanın ilgi duyduğu kripto para sitesi <br> her zaman hizmetinizde.</p>
 		<hr>
 		<img src="coins.jpg" width="550">
 		</center>
