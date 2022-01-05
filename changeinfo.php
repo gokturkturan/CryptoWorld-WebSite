@@ -1,6 +1,33 @@
 <?php
 	session_start();
 ?>
+<style> .btn {
+    color:black;
+    width:200px;
+    height:40px;
+    font-weight:bold;
+    font-size:15px;
+    border:none;
+    border-radius:10px;
+}
+.btn:hover{
+    background:#0462B5;
+    cursor:pointer;
+    color:green;
+}
+input[type=text]{
+    width:200px;
+    height:35px;
+    border:none;
+    border-bottom:1px solid grey;
+}
+input[type=password]{
+    width:200px;
+    height:35px;
+    border:none;
+    border-bottom:1px solid grey;
+}
+</style>
 <?php
 	if(isset($_SESSION['üid']) && isset($_SESSION['user']) && isset($_SESSION['isim']) && isset($_SESSION['soyisim']) && isset($_SESSION['email']) && isset($_SESSION['telno'])) {
 		echo"<html>";
@@ -44,8 +71,8 @@
 			<b><u>Şifre</u></b><br>
  			<input required="required" type="password" size=30 name="sifre">
  			<br><br>
- 			<input type=submit value="Güncelle">
- 			<input type=reset value="Temizle">
+ 			<input type=submit class=btn value="Güncelle">
+ 			<input type=reset class=btn value="Temizle">
 		</p>
  		</form>';
 		
