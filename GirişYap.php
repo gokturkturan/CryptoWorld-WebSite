@@ -13,7 +13,19 @@
 .btn:hover{
     background:#0462B5;
     cursor:pointer;
-    color:red;
+    color:green;
+}
+input[type=text]{
+    width:200px;
+    height:35px;
+    border:none;
+    border-bottom:1px solid grey;
+}
+input[type=password]{
+    width:200px;
+    height:35px;
+    border:none;
+    border-bottom:1px solid grey;
 }
 </style>
 <html>
