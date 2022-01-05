@@ -1,3 +1,18 @@
+<style> .btn {
+    color:black;
+    width:200px;
+    height:40px;
+    font-weight:bold;
+    font-size:15px;
+    border:none;
+    border-radius:10px;
+}
+.btn:hover{
+    background:#0462B5;
+    cursor:pointer;
+    color:red;
+}
+</style>
 <html>
 	<head>
 		<?php // Göktürk Turan 290201096 ?>
