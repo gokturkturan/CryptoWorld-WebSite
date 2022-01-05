@@ -52,8 +52,8 @@
 			<b><u>Şifre</u></b><br>
  			<input required="required" type="password" size=30 name="sifre">
  			<br><br>
- 			<input type=submit value="Kayıt Ol">
- 			<input type=reset value="Temizle">
+ 			<input type=submit class=btn value="Kayıt Ol">
+ 			<input type=reset class=btn value="Temizle">
 		</p>
  		</form>
 		
