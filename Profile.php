@@ -1,6 +1,21 @@
 <?php
 	session_start();
 ?>
+<style> .btn {
+    color:black;
+    width:200px;
+    height:40px;
+    font-weight:bold;
+    font-size:15px;
+    border:none;
+    border-radius:10px;
+}
+.btn:hover{
+    background:#0462B5;
+    cursor:pointer;
+    color:red;
+}
+</style>
 <?php
 	if(isset($_SESSION['üid']) && isset($_SESSION['user']) && isset($_SESSION['isim']) && isset($_SESSION['soyisim']) && isset($_SESSION['email']) && isset($_SESSION['telno'])) {
 		echo"<html>";
