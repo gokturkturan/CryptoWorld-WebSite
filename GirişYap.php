@@ -1,6 +1,21 @@
 <?php
 	session_start();
 ?>
+<style> .btn {
+    color:black;
+    width:200px;
+    height:40px;
+    font-weight:bold;
+    font-size:15px;
+    border:none;
+    border-radius:10px;
+}
+.btn:hover{
+    background:#0462B5;
+    cursor:pointer;
+    color:red;
+}
+</style>
 <html>
 	<head>
 		<?php // Göktürk Turan 290201096 ?>
@@ -28,8 +43,8 @@
  			<b><u>Şifre</u></b><br>
  			<input required="required" type="password" size=30 name="sifre">
  			<br><br>
- 			<input type=submit value="Giriş Yap">
- 			<input type=reset value="Temizle">
+ 			<input type=submit class=btn value="Giriş Yap">
+ 			<input type=reset class=btn value="Temizle">
 		</p>
  		</form>
 		
